@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SoundManager">
+      <UniqueIdentifier>{cbf21830-f4a5-4081-a23c-bbc94e9039dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePattern">
+      <UniqueIdentifier>{a66eb693-4661-43ef-b850-d0799783d2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReadWriteText">
+      <UniqueIdentifier>{73cd1cb5-a396-43b9-afdd-21fe3cc38e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyEvent">
+      <UniqueIdentifier>{1fee18d8-fa2d-49f1-818d-99a8c419bb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{2df53d3b-ef44-43ed-b7ac-4ecd6d567f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePattern\QuestionFactory">
+      <UniqueIdentifier>{4717761b-a4d6-438e-857f-738c485e3bcb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\gl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundManager.cpp">
+      <Filter>SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cReadWrite.cpp">
+      <Filter>ReadWriteText</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyCallback.cpp">
+      <Filter>KeyEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="globalThings.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="cLevelOne.cpp">
+      <Filter>GamePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="cLevelTwo.cpp">
+      <Filter>GamePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="cLevelThree.cpp">
+      <Filter>GamePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuestionFactory.cpp">
+      <Filter>GamePattern\QuestionFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="cLevel.cpp">
+      <Filter>GamePattern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cReadWrite.h">
+      <Filter>ReadWriteText</Filter>
+    </ClInclude>
+    <ClInclude Include="globalThings.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="cLevelOne.h">
+      <Filter>GamePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="cLevelTwo.h">
+      <Filter>GamePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="cLevelThree.h">
+      <Filter>GamePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="iLevel.h">
+      <Filter>GamePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="cLevel.h">
+      <Filter>GamePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuestionFactory.h">
+      <Filter>GamePattern\QuestionFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="iGameObject.h">
+      <Filter>GamePattern</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
